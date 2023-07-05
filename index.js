@@ -8,7 +8,11 @@ class NumPicker extends React.Component {
 		return (
 			<div>
 				<h1>Your number is {num}</h1>
-				<p>{num === 7 ? 'Congrats': 'Unlucky!'}</p>
+				<p>{num === 7 ? 'Congrats': 'Unlucky!' } </p>
+				{
+					num === 7 && 
+					<img src="https://giphy.com/gifs/ufc-290-ufc-ufc290-vozWNU9Gcs49G7UVV1" />
+					}
 			</div>
 		
 		)
