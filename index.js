@@ -10,4 +10,4 @@ class NumPicker extends React.Component {
 	}
 }
 
-React.Render(<NumPicker/>, document.getElementById('root'))
+ReactDOM.render(<NumPicker />, document.getElementById('root'))
